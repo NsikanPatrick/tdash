@@ -1,0 +1,24 @@
+{
+  "name": "tdash",
+  "version": "1.0.0",
+  "description": "Tailwind Admin Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss -i ./src/input.css -o ./public/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NsikanPatrick/tdash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NsikanPatrick/tdash/issues"
+  },
+  "homepage": "https://github.com/NsikanPatrick/tdash#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
